@@ -10,7 +10,7 @@ class main{
         };
         Thread thread2 = new Thread() {
         	public void run() {
-                client_server serverObj = new client_server("10.0.0.113");
+                client_server serverObj = new client_server("yourIpHere");
                 serverObj.startRunning();
         	}
         };
